@@ -1,5 +1,6 @@
-import mat73
+
 import csv
+import mat73
 
 import matplotlib.pyplot as plt
 import numpy as np
