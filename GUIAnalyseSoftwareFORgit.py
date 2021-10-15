@@ -141,7 +141,7 @@ def main():
         FileNameIN = st.file_uploader('Choose a .mat file: ')
         TargetF = st.text_input('Choose The name of the target creation file: ', 'Type Here')
 
-    if (FileName != None) and (TargetF != 'Type Here'):
+    if (FileNameIN != None) and (TargetF != 'Type Here'):
         Description, data, NewData, FileName = GetDataFromMat(FileNameIN)
         WriteToCSV(TargetF, Description, data, NewData)
         StreamlitGUI(TargetF, FileName)
