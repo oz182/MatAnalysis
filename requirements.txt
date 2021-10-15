@@ -1,9 +1,10 @@
-matplotlib==3.3.4
+hdf5storage==0.1.18
 altair==4.1.0
-streamlit==0.89.0
-mat73==0.52
-bokeh==2.3.2
 numpy==1.20.1
+bokeh==2.3.2
+mat73==0.52
+matplotlib==3.3.4
 pandas==1.2.4
+streamlit==0.89.0
 plotly==5.3.1
 PySimpleGUI==4.49.0
