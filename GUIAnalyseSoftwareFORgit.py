@@ -36,8 +36,8 @@ def ListTimeCorecction(DataList, DataFactor):
 
 def GetDataFromMat(FileName):
     #data_dict = mat73.loadmat('C:\\Users\\oze\\Desktop\\' + FileName)  ## Write the path of the dSPACE data File. for running on the computer
-    #data_dict = mat73.loadmat(FileName) #for running via GIthub
-    data_dict = hdf5storage.loadmat(FileName)
+    data_dict = mat73.loadmat(FileName) #for running via GIthub
+    #data_dict = hdf5storage.loadmat(FileName)
     global Description
     Description = []
     word = 0
